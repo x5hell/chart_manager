@@ -4,7 +4,7 @@ let min_price_data = d.data.map(function (item) {
 let max_price_data = d.data.map(function (item) {
   return [item.t, item.p_max]
 });
-return {
+{
   xAxis: { type: 'time', min: 'dataMin', max: 'dataMax'},
   yAxis: [
       { type: 'value', min: 'dataMin', max: 'dataMax'},
