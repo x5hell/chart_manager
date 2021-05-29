@@ -1,1 +1,1 @@
-console.log(d);
+d.data;
